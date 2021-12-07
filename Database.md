@@ -1,11 +1,3 @@
-# Database
-### [`ElasticCache`](#elasticcache)
-### [`RDS`](#RDS)
-### [`Aurora`](#aurora)
-### [`DynamoDb`](#dynamodb)
-
-
-
 ## ElasticCache
    ### Elasticache for Redis: 
   ElastiCache for Redis é um datastore na memória com performance excepcional que oferece latência inferior a um milissegundo a aplicativos em tempo real na escala da Internet.
