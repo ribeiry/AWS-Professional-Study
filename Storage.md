@@ -7,6 +7,8 @@
 				- Cached volumes : Armazena em um S3 e mantem como cópia dos dados acessados com frequencia mantendo a baixa latencia não é compatível com o SMB e NFS
 				- Stored volumes : você pode armazenar localmente todo o conjunto de dados de volume e armazenar backups periódicos e pontuais (snapshots) na AWS
 			
+			
+			
 			https://docs.aws.amazon.com/pt_br/storagegateway/latest/userguide/WhatIsStorageGateway.html
 ## Storage
    ### AWS Storage Gateway:
