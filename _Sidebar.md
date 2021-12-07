@@ -1,11 +1,11 @@
-# Database -JA
+# Database
 
-# Security-JA
+# Security
 
-# Observability-JA
+# Observability
 
-# Cost-JA
+# Cost
 
-# Migration&Transfer-JA
+# Migration&Transfer
 
-# Integration-JA
+# Integration
