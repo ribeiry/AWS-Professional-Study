@@ -9,6 +9,8 @@
 			
 			
 			
+			
+			
 			https://docs.aws.amazon.com/pt_br/storagegateway/latest/userguide/WhatIsStorageGateway.html
 ## Storage
    ### AWS Storage Gateway:
