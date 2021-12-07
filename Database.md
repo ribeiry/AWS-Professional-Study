@@ -8,27 +8,26 @@
 
 ## ElasticCache
    ### Elasticache for Redis: 
-			ElastiCache for Redis é um datastore na memória com performance excepcional que oferece latência inferior a um milissegundo a aplicativos em tempo real na escala da Internet
-			- Operações disponíveis :
-				- Sorted Sets
-				- In-Memory Data-Store
-				- Pub/Subnet
-				- Armazenamento de Sessão 
-                - Suporta replicação de dados, e portanto entrega uma alta disponibilidade
-				
-				Obs.: 
-					- Elasticache é baseado em armazenamento apenas de chave-valor e não de Relacional.
-					- O mecanismo Redis não oferece suporte a vários núcleos ou threads(multi-thread) de CPU.	
+  ElastiCache for Redis é um datastore na memória com performance excepcional que oferece latência inferior a um milissegundo a aplicativos em tempo real na escala da Internet.
+   * Operações disponíveis :
+        * Sorted Sets
+	* In-Memory Data-Store
+	* Pub/Subnet
+	* Armazenamento de Sessão 
+ Suporta replicação de dados, e portanto entrega uma alta disponibilidade
+ Obs.: 
+     * Elasticache é baseado em armazenamento apenas de chave-valor e não de Relacional.
+     * O mecanismo Redis não oferece suporte a vários núcleos ou threads(multi-thread) de CPU.	
 					
-			- Quando utilizar : 
-				Building real-time apps across versatile use cases like gaming, geospatial service, caching, session stores, or queuing, with advanced data structures, replication, and point-in-time snapshot support.
+  * Quando utilizar : 
+Building real-time apps across versatile use cases like gaming, geospatial service, caching, session stores, or queuing, with advanced data structures, replication, and point-in-time snapshot support.
 	
 ### Elasticache for Memcached : 
-			Serviço de armazenamento chave e valor em memória, que pode ser usado como cache ou data store
-			- Armazenamento de Sessão
-            - Não suporta replicação de dados e entrega menor disponibilidade
-			- Quando utilizar :
-				Building a simple, scalable caching layer for your data-intensive apps.
+Serviço de armazenamento chave e valor em memória, que pode ser usado como cache ou data store
+* Armazenamento de Sessão
+* Não suporta replicação de dados e entrega menor disponibilidade
+* Quando utilizar :
+	Building a simple, scalable caching layer for your data-intensive apps.
 ### Patterns de ElastiCache:
 			- Lazy Loading: Todos os dado lidos são em cache, o dado podem ficar obsoletos
 			- Write Through: Adicionar ou atualizar dados em cache quando escrever no DataBase
