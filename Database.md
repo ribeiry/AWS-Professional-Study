@@ -1,6 +1,6 @@
 # Database
 ### [`ElasticCache`](#elasticcache)
-### [`RDS`](#rds)
+### [`RDS`](#RDS)
 ### [`Aurora`](#aurora)
 ### [`DynamoDb`](#dynamodb)
 
